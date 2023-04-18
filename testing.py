@@ -204,10 +204,3 @@ model = keras.Sequential([
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 test_loss, test_acc = model.evaluate(test_dataset, verbose=2)
 
-accuracy = [test_acc]
-loss = [test_loss]
-
-plt.plot(accuracy, label='Accuracy')
-plt.plot(loss, label='Loss')
-plt.legend()
-plt.show()
