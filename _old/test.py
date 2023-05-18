@@ -10,14 +10,14 @@ print("Versiune OpenCV: ", cv2.__version__)
 print("Versiune TensorFlow: ", tf.__version__)
 
 # Calea către fișierul .h5 al modelului antrenat
-model_path = '_old/model.h5'
+model_path = 'model.h5'
 
 # Dimensiunile imaginilor de test
 width = 80
 height = 80
 
 # Directorul cu imaginile de test
-test_dir = 'dataset/test'
+test_dir = '../dataset/test'
 
 # Numărul de clase
 num_classes = 2
